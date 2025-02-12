@@ -11,7 +11,7 @@ const icons = {
     MailIcon: <MailIcon />,
 };
 
-const DrawerMenu = ({ menuItems }) => {
+const MyDrawerMenu = ({ menuItems }) => {
     const [open, setOpen] = useState({});
 
     const handleClick = text => () => {
@@ -49,4 +49,4 @@ const ListItems = ({ items }) => (
     </List>
 );
 
-export default DrawerMenu;
+export default MyDrawerMenu;

@@ -2,12 +2,12 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import Toolbar from '@mui/material/Toolbar';
-import DrawerMenu from "./DrawerMenu/DrawerMenu";
+import MyDrawerMenu from "./DrawerMenu/MyDrawerMenu";
 
 
 const drawerWidth = 240;
 
-const Drawer = ({menuItems, anchor = 'left'}) => {
+const MyDrawer = ({menuItems, anchor = 'left'}) => {
     return (
         <Drawer
             sx={{
@@ -24,11 +24,11 @@ const Drawer = ({menuItems, anchor = 'left'}) => {
             <Toolbar />
             {
                 <Box sx={{ overflow: 'auto' }}>
-                    <DrawerMenu menuItems={menuItems} />
+                    <MyDrawerMenu menuItems={menuItems} />
                 </Box>
             }
         </Drawer>
     );
 }
 
-export default Drawer;
+export default MyDrawer;
