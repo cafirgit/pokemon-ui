@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import yaml from 'js-yaml';
-import fs from 'fs';
+
 import { List, ListItem, ListItemButton, ListItemIcon, ListItemText, Collapse } from '@mui/material';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
